@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--/----" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Зарплата: ---" />
+
+            <TextView
+                android:id="@+id/text_advance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Аванс: ---" />
+
+            <TextView
+                android:id="@+id/text_all_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Общее: ---" />
+
+            <TextView
+                android:id="@+id/text_rent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Квартплата: ---" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Банк 20%: ---" />
+
+            <TextView
+                android:id="@+id/text_moneybox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Копилка 10%: ---" />
+
+            <TextView
+                android:id="@+id/text_purse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Кошелек 30%: ---" />
+
+            <TextView
+                android:id="@+id/text_rest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Остаток: ---" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#999999" />
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/itemNew" android:title="Добавить"></item>
+    <item android:id="@+id/itemEdit" android:title="Редактировать"></item>    
+    <item android:id="@+id/itemDel" android:title="Удалить"></item>
+    <item android:id="@+id/itemSort" android:title="Сортировать"></item>
+    <item android:id="@+id/itemExit" android:title="Выход" ></item>
+    
+
+</menu>
